@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jasemse.apkamuzyczna.MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buttonSound1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="grajSound1"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/Dzwiek1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dźwięk1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buttonSound2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="grajSound1"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/Dzwiek2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dźwięk2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buttonSound3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="grajSound1"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/Dzwiek3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dźwięk3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buttonSound4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="grajSound1"
+                android:text="Button"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="147dp" />
+
+            <TextView
+                android:id="@+id/Dzwiek4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dźwięk4" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buttonSound5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="grajSound1"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/Dzwiek5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dźwięk5" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buttonSound6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="grajSound1"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/Dzwiek6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dźwięk6" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Tutaj dostęp do pliku" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="WriteBtn"
+                android:text="Save" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="ReadBtn"
+                android:text="Load" />
+        </TableRow>
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>
