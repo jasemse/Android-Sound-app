@@ -135,17 +135,17 @@ public class MainActivity extends AppCompatActivity {
                 if (s.charAt(i) == 'A') {
                     odegraj = sound1;
                 } else if (s.charAt(i) == 'B') {
-                    odegraj = sound1;
+                    odegraj = sound2;
                     ;
                 } else if (s.charAt(i) == 'C') {
-                    odegraj = sound1;
+                    odegraj = sound3;
                     ;
                 } else if (s.charAt(i) == 'D') {
-                    odegraj = sound1;
+                    odegraj = sound4;
                 } else if (s.charAt(i) == 'E') {
-                    odegraj = sound1;
+                    odegraj = sound5;
                 } else if (s.charAt(i) == 'F') {
-                    odegraj = sound1;
+                    odegraj = sound6;
                 }
                 playSound(this, odegraj);
             }
